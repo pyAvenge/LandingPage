@@ -1,0 +1,21 @@
+.header{
+    background-color:  #1f2937; 
+    display: flex;
+    border: 2px solid red;
+    flex-direction: row;
+;
+    gap: 8px;
+}
+.img,.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    flex: 1;
+}
+.logo{
+    border: 2px solid red;
+    margin-right: 300px;
+}
+.alink{
+    border: 2px solid red;
+    padding: 3px;
+}

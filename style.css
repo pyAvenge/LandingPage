@@ -1,21 +1,29 @@
 .header{
     background-color:  #1f2937; 
     display: flex;
-    border: 2px solid red;
+    color: white;
     flex-direction: row;
-;
-    gap: 8px;
+    gap: 55px;
+}
+.alink{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 15px;
 }
 .img,.header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     flex: 1;
+    
 }
 .logo{
-    border: 2px solid red;
+    
     margin-right: 300px;
 }
 .alink{
-    border: 2px solid red;
-    padding: 3px;
+    
+    justify-content: right;
+    margin-right: 10px;
 }
